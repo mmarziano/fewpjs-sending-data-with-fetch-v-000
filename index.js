@@ -1,6 +1,7 @@
 // Add your code here
-let destinationURL = 'http://localhost:3000/dogs';
-  let configurationObject = {
+
+
+fetch('http://localhost:3000/dogs', {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -10,7 +11,5 @@ let destinationURL = 'http://localhost:3000/dogs';
       dogName: "Bryon",
       dogBreed: "Poodle"
     })
-  };
-
-fetch(destinationURL, configurationObject)
+  });
   
