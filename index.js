@@ -12,4 +12,4 @@ let configurationObject = {
     dogName: "Bryon",
     dogBreed: "Poodle"
   })
-}
+};
